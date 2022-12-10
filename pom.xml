@@ -110,7 +110,7 @@
 					</execution>
 				</executions>
 				<configuration>
-					<serverId>nexus</serverId>
+					<serverId>maven-releases</serverId>
 					<nexusUrl>http://http:192.168.1.16:8081/</nexusUrl>
 					<skipStaging>true</skipStaging>
 				</configuration>

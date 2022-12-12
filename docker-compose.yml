@@ -7,7 +7,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image:  jlassi25/trains
+    image:  dhafer01/gestion
     restart: on-failure
     container_name: gestion
     depends_on:

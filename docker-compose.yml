@@ -7,7 +7,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image:  dhafer01/gestion
+    image:  dhafer02/gestion
     restart: on-failure
     container_name: gestion
     depends_on:
@@ -42,7 +42,7 @@ services:
     ports:
       - 3308:3308
     volumes:
-      - tpstockdb:/var/lib/mysql
+      - tpvoyageurdb:/var/lib/mysql
 
 networks:
   spring-network:
@@ -50,4 +50,4 @@ networks:
 
 volumes:
   .m2:
-  tpstockdb:
+  tpvoyageurdb:
